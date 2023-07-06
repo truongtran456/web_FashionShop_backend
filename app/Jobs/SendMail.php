@@ -36,3 +36,5 @@ class SendMail implements ShouldQueue
         Mail::to($this->email)->send(new OrderShipped());
     }
 }
+
+
